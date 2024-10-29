@@ -15,4 +15,10 @@ public class MainController {
 
         return "main";
     }
+
+    @GetMapping(value = "/notmain")
+    public String notmain(Model model) {
+
+        return "main";
+    }
 }
